@@ -1,0 +1,6 @@
+rank: 4
+adv_percent: 0.4
+dataset: "adult"
+aggregator: "krum"
+measure: "eo"
+no_com_rounds: 50

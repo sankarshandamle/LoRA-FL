@@ -1,0 +1,8 @@
+rank: 4
+adv_percent: 0.2
+dataset: "bank"
+aggregator: "krum"
+measure: "eo"
+no_com_rounds: 50
+honest_lr: 1e-4
+adv_lr: 1e-4
