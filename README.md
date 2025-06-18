@@ -1,13 +1,17 @@
-# Clone the Repository
+# Run
 
-$ git clone https://github.com/LjRo/fairness_fl.git
-
-
-# Export Python Path
-
-fairness_fl/fairadvFL$ export PYTHONPATH=$(pwd)
+$ git clone https://github.com/sankarshandamle/LoRA-FL.git
 
 
-# Run the trainer
+### Export Python Path
 
-fairness_fl/fairadvFL/src$ python main.py
+fairadvFL$ export PYTHONPATH=$(pwd)
+
+
+### Run the trainer
+
+fairadvFL$ python main.py <config_name.yml> NO_RUNS
+
+### Or use the scripts
+
+fairadvFL$ bash run_experiments_adult.sh
