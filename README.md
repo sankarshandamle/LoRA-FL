@@ -6,7 +6,7 @@
 
 **Title**: LoRA-FL: A Low-Rank Adversarial Attack for Compromising Group Fairness in Federated Learning  
 **Authors**: Sankarshan Damle, Ljubomir Rokvic, Venugopal Bhamidi, Manisha Padala, Boi Faltings  
-**Conference**: [ICML 2025 Workshop on Collaborative and Federated Agentic Workflows (CFAgentic)](https://icml.cc/)  
+**Workshop**: [ICML 2025 Workshop on Collaborative and Federated Agentic Workflows (CFAgentic @ ICML)]([https://icml.cc/](https://cfagentic.github.io/))  
 
 ---
 
@@ -26,23 +26,25 @@ Federated Learning (FL) enables collaborative model training without sharing raw
   booktitle={ICML Workshop on Collaborative and Federated Agentic Workflows (CFAgentic)},
   year={2025}
 }
+```
+
+---
 
 
+## Run
 
-# Run
-
-$ git clone https://github.com/sankarshandamle/LoRA-FL.git
+```$ git clone https://github.com/sankarshandamle/LoRA-FL.git```
 
 
 ### Export Python Path
 
-fairadvFL$ export PYTHONPATH=$(pwd)
+```fairadvFL$ export PYTHONPATH=$(pwd)```
 
 
 ### Run the trainer
 
-fairadvFL$ python main.py <config_name.yml> NO_RUNS
+```fairadvFL$ python main.py <config_name.yml> NO_RUNS```
 
 ### Or use the scripts
 
-fairadvFL$ bash run_experiments_adult.sh
+```fairadvFL$ bash run_experiments_adult.sh```
