@@ -34,7 +34,7 @@ LoRA-FL introduces a two-phase adversarial strategy:
 Adversarial agents compute a biased model update:
 
 ```
-𝘂ᵢ,ₜ ← Θₜ + α · Aᵢ,ₜ Bᵢ,ₜꜛ
+Θᵢ,ₜ ← Θₜ + α · Aᵢ,ₜ Bᵢ,ₜꜛ
 ```
 
 where `Aᵢ,ₜ`, `Bᵢ,ₜ` are low-rank matrices optimized adversarially.
