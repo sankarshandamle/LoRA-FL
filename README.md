@@ -125,7 +125,7 @@ If you use this work, please cite:
 
 ## 🧪 Acknowledgements
 
-This research was conducted at the  LIA, EPFL in collaboration with IIT Gandhinagar.
+This research was conducted at  LIA, EPFL in collaboration with IIT Gandhinagar.
 
 ---
 
