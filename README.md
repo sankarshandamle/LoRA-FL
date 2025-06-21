@@ -5,7 +5,9 @@
 ## 📄 Summary
 
 **Title**: *LoRA-FL: A Low-Rank Adversarial Attack for Compromising Group Fairness in Federated Learning*
+
 **Authors**: *Sankarshan Damle, Ljubomir Rokvic, Venugopal Bhamidi, Manisha Padala, Boi Faltings*
+
 **Workshop**: [ICML 2025 Workshop on Collaborative and Federated Agentic Workflows (CFAgentic)](https://cfagentic.github.io/)
 
 ---
