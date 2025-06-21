@@ -12,7 +12,7 @@
 
 ## 🔍 Abstract
 
-Federated Learning (FL) enables distributed model training without sharing raw data, but non-iid client distributions can lead to unfair outcomes across sensitive demographic groups. Existing fairness attacks either harm accuracy or are blocked by robust aggregators like **KRUM**.
+Federated Learning (FL) enables distributed model training without sharing raw data, but underlying client distributions, or biased client data can lead to unfair outcomes across sensitive demographic groups. Existing fairness attacks either harm accuracy or are blocked by robust aggregators like **KRUM**.
 
 We propose **LoRA-FL**: a stealthy adversarial attack that injects bias using **low-rank adapters** while closely mimicking benign updates. By operating in a compact parameter subspace, LoRA-FL:
 
