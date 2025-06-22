@@ -61,9 +61,6 @@ cd LoRA-FL
 
 ```bash
 pip install -r requirements.txt
-```
-
-```bash
 export PYTHONPATH=$(pwd)
 ```
 
