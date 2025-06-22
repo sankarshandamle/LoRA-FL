@@ -57,7 +57,11 @@ git clone https://github.com/sankarshandamle/LoRA-FL.git
 cd LoRA-FL
 ```
 
-### 2. Export Python Path
+### 2. Install Dependencies and Export Python Path
+
+```bash
+pip install -r requirements.txt
+```
 
 ```bash
 export PYTHONPATH=$(pwd)
