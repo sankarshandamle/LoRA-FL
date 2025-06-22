@@ -103,7 +103,6 @@ LoRA-FL reduces fairness metrics by over 40% while maintaining high task perform
 LoRA-FL successfully evades robust aggregators such as:
 
 * **KRUM**
-* **Coordinate-wise Median**
 * **Trimmed Mean**
 
 This is due to the subtle, low-rank nature of its perturbations.
